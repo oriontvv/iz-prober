@@ -9,7 +9,7 @@ homepage = "https://github.com/oriontvv/iz-prober/"
 repository = "https://github.com/oriontvv/iz-prober/"
 documentation = "https://docs.rs/iz-prober"
 keywords = ["probe", "telegram", "bot", "prober", "availability"]
-categories = ["bot", "prober", "network"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 chrono = "0.4"

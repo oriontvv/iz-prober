@@ -1,0 +1,19 @@
+[Unit]
+Description=IZ Prober Monitoring Service
+After=network.target
+
+[Service]
+Type=simple
+User=prober
+Group=prober
+WorkingDirectory=/opt/iz-prober
+ExecStart=/opt/iz-prober/iz-prober
+Restart=always
+RestartSec=5s
+Environment="RUST_LOG=info"
+
+# Optional: If your config file is in a non-standard location
+#Environment="CONFIG_PATH=/etc/iz-prober/config.toml"
+
+[Install]
+WantedBy=multi-user.target

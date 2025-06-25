@@ -1,6 +1,6 @@
 # iz-prober
 
-[iz-prober](https://github.com/oriontvv/iz-prober) is a simple telegram bot that checks your list of urls and notify if some is down
+[iz-prober](https://github.com/oriontvv/iz-prober) is a simple telegram bot - prober in rust that checks servers availability.
 
 # Installation
 1. install binary
@@ -20,3 +20,7 @@ servers = [
     "http://example.net",
 ]
 ```
+
+4. systemd unit (optional)
+
+* 

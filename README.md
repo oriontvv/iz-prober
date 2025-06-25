@@ -2,6 +2,8 @@
 
 [iz-prober](https://github.com/oriontvv/iz-prober) is a simple telegram bot - prober in rust that checks servers availability.
 
+[![Actions Status](https://github.com/oriontvv/iz-prober/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/oriontvv/iz-prober/actions/workflows/ci.yml) [![Coverage badge](https://raw.githubusercontent.com/oriontvv/iz-prober/coverage/htmlcov/badges/flat.svg)](https://htmlpreview.github.io/?https://github.com/oriontvv/iz-prober/coverage/htmlcov/index.html) [![dependency status](https://deps.rs/repo/github/oriontvv/iz-prober/status.svg)](https://deps.rs/repo/github/oriontvv/iz-prober) [![Crates.io](https://img.shields.io/crates/v/iz-prober.svg)](https://crates.io/crates/iz-prober)
+
 # Installation
 1. install binary
     * download [built](https://github.com/oriontvv/iz-prober/releases)

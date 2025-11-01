@@ -14,7 +14,7 @@ categories = ["command-line-utilities"]
 [dependencies]
 chrono = "0.4.41"
 log = "0.4"
-openssl = { version = "0.10.73", features = ["vendored"] }
+openssl = { version = "0.10.74", features = ["vendored"] }
 pretty_env_logger = "0.5.0"
 reqwest = { version = "0.12.20", features = ["rustls-tls"] }
 serde = { version = "1.0", features = ["derive"] }

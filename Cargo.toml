@@ -12,7 +12,7 @@ keywords = ["probe", "telegram", "bot", "prober", "availability"]
 categories = ["command-line-utilities"]
 
 [dependencies]
-chrono = "0.4.41"
+chrono = "0.4.43"
 log = "0.4"
 openssl = { version = "0.10.73", features = ["vendored"] }
 pretty_env_logger = "0.5.0"
